@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="4dp"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_edit1"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            style="@style/BUTTON"
+            android:id="@+id/cat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="18sp" />
+        <View
+
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_centerVertical="true"
+            android:background="#c0c0c0"
+            android:textSize="8sp"
+            app:layout_constraintBottom_toTopOf="@+id/pic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/userName" />
+
+        <TextView
+            style="@style/BUTTON"
+            android:id="@+id/postTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="25sp" />
+
+        <TextView
+            style="@style/BUTTON"
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="18sp" />
+        <com.ms.square.android.expandabletextview.ExpandableTextView
+            style="@style/BUTTON"
+            android:id="@+id/expand_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:maxCollapsedLines="2"
+            app:animDuration="100">
+
+            <!-- simple text view  -->
+            <TextView
+                style="@style/BUTTON"
+                android:id="@id/expandable_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="sans-serif-light"
+                android:textAlignment="viewStart"
+                android:textColor="#666666"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <!-- expandable ImageButton -->
+            <ImageButton
+                style="@style/BUTTON"
+                android:id="@id/expand_collapse"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right|bottom"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/transparent" />
+
+        </com.ms.square.android.expandabletextview.ExpandableTextView>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

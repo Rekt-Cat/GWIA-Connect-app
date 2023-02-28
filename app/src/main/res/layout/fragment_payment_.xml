@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    tools:context=".Payment_Fragment"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Please choose a payment method"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount"
+        android:layout_marginBottom="10dp"
+        android:transitionName="email">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_height="match_parent"
+            android:inputType="numberDecimal"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.paypal.checkout.paymentbutton.PayPalButton
+        android:id="@+id/payment_button_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:pay_later_button_color="silver"
+        app:pay_later_button_enabled="true"
+        app:pay_later_button_shape="pill"
+        app:pay_later_button_size="medium"
+        app:paypal_button_color="silver"
+        app:paypal_button_enabled="true"
+        app:paypal_button_label="pay"
+        app:paypal_button_shape="rectangle"
+        app:paypal_button_size="large"
+        app:paypal_credit_button_color="black"
+        app:paypal_credit_button_enabled="true"
+        app:paypal_credit_button_shape="rounded"
+        app:paypal_credit_button_size="small" />
+
+    <Button
+        android:id="@+id/wallet"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/BUTTON"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="WALLET" />
+</LinearLayout>

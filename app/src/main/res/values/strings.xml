@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GWIA connect</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ad_mob_id">ca-app-pub-6313852763028900~3419269591</string>
+    <string name="ad_attribution">AD</string>
+
+    <string name="news_post">A multiple line text goes here, describing the content of the post mentioned. having expandable textview really improves the UX of the app also the work of an android dev. hahaha</string>
+    <string name="st1">We find it is important to seek inspiration every day, no matter what is going on. But this past year especially, we have found much needed hope and inspiration from so many women worldwide. We’ve witnessed millions of female activists rise up to support frontline healthcare workers, racial justice, democracy, and climate justice. So we propose taking a moment to celebrate all their hard work (and maybe find a new activist role model along the way).</string>
+    <string name="st2">A recent report titled, Breaking the Silence: Bahraini Women Political Prisoners Expose Systemic Abuses, outlines the cases of nine former and current female prisoners in Bahrain throughout the process of their arrests and trials, as well as the conditions of their detentions. The report was formally launched last month, and was the subject of a Washington, DC, event on Capitol Hill on Tuesday. </string>
+</resources>

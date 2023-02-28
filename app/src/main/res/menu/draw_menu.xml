@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/feeds"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Feed" />
+        <item
+            android:id="@+id/news"
+            android:icon="@drawable/ic_baseline_rss_feed_24"
+            android:title="News" />
+        <item
+            android:id="@+id/academics"
+            android:icon="@drawable/ic_baseline_school_24"
+            android:title="Academics" />
+        <item
+            android:id="@+id/wallet"
+            android:icon="@drawable/ic_baseline_account_balance_wallet_24"
+            android:title="Wallet" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="Settings" />
+        <item
+            android:id="@+id/myProfile"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="My Profile" />
+
+    </group>
+
+
+</menu>

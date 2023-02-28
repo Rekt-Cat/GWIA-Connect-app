@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "975317020576",
+    "project_id": "gwia-connect",
+    "storage_bucket": "gwia-connect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975317020576:android:c3d85ade6e28e43b2b3ec5",
+        "android_client_info": {
+          "package_name": "com.maid.gwiaconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975317020576-ipu930puetdh5nht5gaq3otqf4tj0lq4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFLwNqH3_4fb0XA4GwWVZc2WKosX9Rdas"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975317020576-ipu930puetdh5nht5gaq3otqf4tj0lq4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
